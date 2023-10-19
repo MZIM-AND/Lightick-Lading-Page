@@ -1,0 +1,586 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: sans-serif, "poppins";
+  background-color: #e4e3f0;
+}
+
+/*holder styles starts in this section*/
+
+.holder{
+  height: 1500px;
+  width: 1000px;
+  background-color: #eceeed;
+  margin: auto;
+  box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-image: linear-gradient(to bottom, black, navy, navy);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*header styles are all nested in this below section*/
+
+header{
+  display: flex;
+}
+
+.logo-circle{
+  height: 50px;
+  width: 50px;
+  background-image: linear-gradient(to bottom, purple,red);
+  border-radius: 100%;
+  Margin-top: 2rem;
+  margin-left: 4rem;
+  color: white;
+  display: flex;
+  opacity: 95%;
+}
+
+h7{
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+}
+
+#logo{
+  display: flex;
+}
+
+h1{
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+}
+
+.top-nav{
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+}
+
+.top-nav a{
+  text-decoration: none;
+  padding-left: 1rem;
+  color: white;
+  font-size: 17px;
+}
+
+.top-nav a:hover{
+  font-weight: bold;
+} 
+
+.countries{
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.login{
+  background-color: blue;
+  height: 35px;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 1rem;
+  opacity: 80%;
+}
+
+.signup{
+  background-color: blue;
+  height: 35px;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 1rem;
+  opacity: 80%;
+}
+
+.login:hover{
+  background-color: #fff;
+  color: black;
+}
+
+.signup:hover{
+  background-color: #fff;
+  color: black;
+}
+
+.top-nav .icon{
+  display: none;
+}
+
+/*The top-nav styles ends here, the below section focuses on the responsiveness of the top-nav*/
+@media screen and (max-width: 400px){
+ .top-nav a {
+
+  display: block;
+  padding-top: 1rem;
+  margin-left: 5rem;
+ 
+
+}
+
+.countries{
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.logo{
+  display: block;
+}
+
+.login{
+  display: block;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 200px;
+}
+.signup{
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 200px;
+
+}
+
+header{
+  display: block; 
+}
+
+}
+/*Hero section styles commences in this scetion*/
+
+h2{
+  margin-left: 17rem;
+  margin-top: 4rem;
+  font-size: 30px;
+}
+
+h3{
+ font-size: 30px;
+ margin-left: 35rem;
+ margin-top: 0.2rem;
+}
+
+/*Hero section styles are here*/
+
+#container{
+  height: 300px;
+  width: 900px;
+  background-color:none;
+  margin-top: 6rem;
+  margin-left: 4rem;
+  opacity: 90%;
+  display: flex;
+}
+
+.container1{
+  height: 300px;
+  width: 50%;
+  background: none;
+}
+
+h1{
+  font-size: 40px;
+  color: #fff;
+}
+
+.explanation1{
+  margin-left: 1rem;
+  margin-top: 0.9rem;
+  color: #fff;
+}
+
+.get-started{
+  margin-left: 1rem;
+  margin-top: 0.9rem;
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 80%;
+}
+.get-started:hover{
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+}
+
+.explanation2{
+  margin-left: 1rem;
+}
+
+/*the right hero section styles are here*/
+
+#container2{
+  height: 180px;
+  width: 300px;
+  background-color:black;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  border-radius: 7px;
+  opacity: 90%;
+  color: #fff;
+}
+
+.support{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.page-numbers{
+  margin-left: 1rem;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.top-box{
+  height: 80px;
+  width: 200px;
+  background-color: black;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-left: 12rem;
+  bottom: 11rem;
+  border-radius: 6px;
+  opacity: 90%;
+  border: 1px solid white;
+  color: #fff;
+
+}
+
+.support-list{
+  display: flex;
+}
+
+.support-box1{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(160, 100, 100);
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  border-radius: 6px;
+}
+h4{
+  margin: auto;
+}
+
+h5{
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.block1{
+  display: block;
+}
+
+.components{
+  font-size: 10px;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.price{
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.dashboard{
+  display: flex;
+}
+
+.dashboard-container{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(160, 100, 100);
+  margin-left: 1rem;
+  margin-top: 0.9rem;
+  border-radius: 6px;
+  display: flex;
+}
+
+h6{
+  margin: auto;
+  font-size: 15px;
+}
+
+.price2{
+  margin-left: 6.6rem;
+  margin-top: 1rem;
+}
+
+.validation{
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+h8{
+  font-size: 15px;
+  margin-left: 1rem;
+  padding-top: 0.8rem;
+}
+
+/*section 2 content styles are here*/
+
+#section2{
+  height: 800px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, black,black, navy);
+  padding-top: 1rem;
+}
+
+h9{
+  color: white;
+  margin-left: 20rem;
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.explanation4{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 0.4;
+  display: flex;
+  margin-left: 16rem;
+  margin-top: 1rem;
+  opacity: 70%;
+}
+
+#middle-section2{
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 4rem;
+}
+
+.online-profile{
+height: 50px;
+width: 50px;
+background-color: navy;
+bottom: 19px;
+position: relative;
+opacity: 0.7;
+border-radius: 7px;
+border-width: thick;
+display: flex;
+}
+
+.hl{
+ height: 7px;
+ width: 700px;
+ margin-left: 5rem;
+ border-radius: 2px;
+background-image: linear-gradient(to bottom right,pink, red, yellow);
+display: flex;
+}
+
+.plan-tasks{
+  height: 50px;
+  width: 50px;
+  background-color: navy;
+  bottom: 19px;
+  position: relative;
+  opacity: 0.7;
+  margin-left: 16rem;
+  border-radius: 7px;
+  border-width: thick;
+  display: flex;
+
+}
+
+.execution{
+  height: 50px;
+  width: 50px;
+  background-color: navy;
+  position: relative;
+  bottom: 19px;
+  opacity: 0.7;
+  margin-left: 19rem;
+  border-radius: 7px;
+  border-width: thick;
+  display: flex;
+}
+
+h10{
+  margin: auto;
+  color: #fff;
+  font-size: 25px;
+}
+
+h11{
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+}
+
+h13{
+   color: #fff;
+   padding-top: 2rem;
+   display: flex;
+   margin-left: 4rem;
+   font-size: 22px;
+   margin-top: 2rem;
+}
+
+.explanation5{
+  color: white;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  font-size: 13px;
+}
+
+.content2-1{
+  display: flex;
+}
+
+.profile{
+  display: block;
+}
+
+h14{
+  color: #fff;
+  display: flex;
+  margin-top: 4rem;
+  font-size: 22px;
+  margin-left: 2rem;
+}
+
+.explanation6{
+  color: #fff;
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 0.4rem;
+
+}
+.customization{
+  display: block;
+}
+
+
+h16{
+  color: #fff;
+  padding-top: 3.8rem;
+  font-size: 22px;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.explanation7{
+  color: #fff;
+  margin-left: 2rem;
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+/*the styles for this section ends here*/
+
+#section3{
+  display: flex;
+}
+
+.frame{
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  margin-left: 5rem;
+  margin-top: 6rem;
+  border-radius: 10px;
+  border-image: linear-gradient(45deg, purple,orange)1;
+  border-width: 7px;
+  border-style: solid;
+}
+
+h17{
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+
+.section3-1{
+  display: block;
+}
+
+.explanation8{
+  color: #fff;
+  opacity: 80%;
+  font-size: 13px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.subscriptions{
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.try-it{
+  height: 35px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.try-it:hover{
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+}
+
+.how-itworks{
+   margin-left: 2rem;
+   border-radius: 6px;
+   height: 35px;
+   width: 100px;
+   background-color: black;
+   color: #fff;
+   border: 1px solid blue;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.how-itworks:hover{
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+}
+
+/*pricing section styles are here*/
+
+#pricing-plan{
+  display: flex;
+}
+
+
+
+
+
+
+
+
